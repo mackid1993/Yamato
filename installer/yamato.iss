@@ -7,7 +7,7 @@
 ; Requires dist\ to have been staged first, which build.cmd does.
 
 #define AppName     "Yamato"
-#define AppVersion  "1.0.9"
+#define AppVersion  "1.0.10"
 #define AppExe      "yamato.exe"
 #define AppPublisher "David Brustein"
 

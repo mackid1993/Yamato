@@ -334,7 +334,7 @@ dependencies = [
 
 [[package]]
 name = "yamato"
-version = "1.0.9"
+version = "1.0.10"
 dependencies = [
  "windows",
  "windows-sys",
@@ -345,7 +345,7 @@ dependencies = [
 
 [[package]]
 name = "yamato-core"
-version = "1.0.9"
+version = "1.0.10"
 dependencies = [
  "serde",
  "serde_json",
@@ -354,7 +354,7 @@ dependencies = [
 
 [[package]]
 name = "yamato-ec"
-version = "1.0.9"
+version = "1.0.10"
 dependencies = [
  "windows-sys",
 ]

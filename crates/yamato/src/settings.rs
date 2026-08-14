@@ -673,10 +673,13 @@ impl Settings {
             // every number in the layout is a DIP.
             let scale = scale_for_a_new_window();
 
+            let title = format!("Yamato {}", env!("CARGO_PKG_VERSION"));
+            let title_wide: Vec<u16> = title.encode_utf16().chain(std::iter::once(0)).collect();
+
             let window = CreateWindowExW(
                 WINDOW_EX_STYLE::default(),
                 class,
-                w!("Yamato"),
+                PCWSTR(title_wide.as_ptr()),
                 WS_OVERLAPPEDWINDOW,
                 CW_USEDEFAULT,
                 CW_USEDEFAULT,

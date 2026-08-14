@@ -3,7 +3,7 @@ members = ["crates/yamato-ec", "crates/yamato-core", "crates/yamato"]
 resolver = "2"
 
 [workspace.package]
-version = "1.0.9"
+version = "1.0.10"
 edition = "2021"
 license = "MIT"
 authors = ["David Brustein <david@brustein.net>"]
